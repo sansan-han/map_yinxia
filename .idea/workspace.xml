@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add blog" />
+    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add blog">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,9 @@
       <workItem from="1711620892430" duration="1514000" />
       <workItem from="1712813177754" duration="361000" />
       <workItem from="1712931988724" duration="90000" />
+      <workItem from="1712933714225" duration="53000" />
+      <workItem from="1714460682895" duration="613000" />
+      <workItem from="1717939608684" duration="570000" />
     </task>
     <servers />
   </component>
@@ -106,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add blog" />
   </component>
 </project>

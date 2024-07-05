@@ -516,7 +516,7 @@
                         name: '网页',
                         domains: [
                             {
-                                name: '云盘',
+                                name: '云盘（废弃）',
                                 domain: getDomainRef('http://wol.yinxia.blue:5212', `http://192.168.1.4:5212`, 'https://disk.yocoh.cn','http://192.168.33.4:5212'),
                             },
                             {
@@ -529,36 +529,29 @@
                             },
                             {
                                 name: '视频',
-                                domain: getDomainRef('http://wol.yinxia.blue:8097', `http://192.168.1.4:8097`, 'https://v.yinxia.blue', 'http://192.168.33.4:8097'),
+                                domain: getDomainRef('http://mac.yinxia.blue:8096', `http://192.168.1.5:8096`, 'https://v.yinxia.blue', 'http://192.168.33.4:8096'),
                             },
                             {
                                 name: '图库',
-                                domain: getDomainRef('http://wol.yinxia.blue:8003', `https://img.yocoh.cn`, 'https://img.yocoh.cn', 'http://192.168.33.4:8003'),
+                                domain: getDomainRef('https://img.yocoh.cn', `https://img.yocoh.cn`, 'https://img.yocoh.cn', 'https://img.yocoh.cn'),
                             },
                             {
                                 name: '毕业相册',
-                                domain: getDomainRef('http://wol.yinxia.blue:8004', `https://17oese.cn`, 'https://17oese.cn', 'http://192.168.33.4:8004'),
-                            },
-                            {
-                                name: '阅读',
-                                domain: getDomainRef('', ``, 'https://read.yocoh.cn', ''),
+                                domain: getDomainRef('https://17oese.cn', `https://17oese.cn`, 'https://17oese.cn', 'https://17oese.cn'),
                             },
                             {
                                 name: 'Webdav',
-                                domain: getDomainRef('http://wol.yinxia.blue:5244', `http://192.168.1.4:5244`, '', 'http://192.168.33.4:5244'),
+                                domain: getDomainRef('http://mac.yinxia.blue:5244', `http://192.168.1.5:5244`, '', 'http://192.168.33.4:5244'),
                             },
                             {
                                 name: 'CHAT-BOT',
-                                domain: getDomainRef('', `http://192.168.1.4:3000`, 'https://chat.yocoh.cn', 'http://192.168.33.4:3000'),
+                                domain: getDomainRef('', `http://192.168.1.5:3000`, 'https://chat.yocoh.cn', 'http://192.168.33.5:3000'),
                             },
                             {
                                 name: 'BLOG',
                                 domain: getDomainRef('https://blog.yocoh.cn', 'https://blog.yocoh.cn', 'https://blog.yocoh.cn', 'https://blog.yocoh.cn'),
                             },
-                            {
-                                name: 'MP',
-                                domain: getDomainRef('http://wol.yinxia.blue:7700', 'http://192.168.1.4:7700', '', 'http://192.168.33.4:7700'),
-                            },
+
                         ],
                     },
                     {
@@ -566,24 +559,27 @@
                         domains: [
                             {
                                 name: '测速',
+                                domain: getDomainRef('', `http://192.168.1.5:8008`, '', 'http://192.168.33.5:8008'),
+                            },{
+                                name: '测速OLD',
                                 domain: getDomainRef('', `http://192.168.1.4:8008`, '', 'http://192.168.33.4:8008'),
                             },
                             {
                                 name: 'auto-bangumi',
-                                domain: getDomainRef('', `http://192.168.1.4:7892`, '', 'http://192.168.33.4:7892'),
+                                domain: getDomainRef('http://mac.yinxia.blue:7892/', `http://192.168.1.5:7892`, '', 'http://192.168.33.5:7892'),
                             },
 
                             {
                                 name: 'bitTorrent',
-                                domain: getDomainRef('http://wol.yinxia.blue:8001/', `http://192.168.1.4:8001/`, '', 'http://192.168.33.4:8001/'),
+                                domain: getDomainRef('', `http://192.168.1.5:8001/`, '', 'http://192.168.33.5:8001/'),
                             },
                             {
                                 name: 'portainer',
-                                domain: getDomainRef('', `https://192.168.1.4:9443`, '', 'https://192.168.33.4:9443'),
+                                domain: getDomainRef('', `https://192.168.1.5:9443`, '', 'https://192.168.33.5:9443'),
                             },
                             {
                                 name: 'ddns-go',
-                                domain: getDomainRef('', `http://192.168.1.4:9876`, '', 'http://192.168.33.4:9876'),
+                                domain: getDomainRef('', `http://192.168.1.5:9876`, '', 'http://192.168.33.5:9876'),
                             },
                             {
                                 name: 'NGPM',
@@ -598,12 +594,8 @@
                                 domain: getDomainRef('', ``, 'https://lrc.yocoh.cn', ''),
                             },
                             {
-                                name: 'IYUU',
-                                domain: getDomainRef('http://wol.yinxia.blue:8780', 'http://192.168.1.4:8780', '', 'http://192.168.33.4:8780'),
-                            },
-                            {
-                                name: 'TR',
-                                domain: getDomainRef('http://wol.yinxia.blue:7001', 'http://192.168.1.4:7001', '', 'http://192.168.33.4:7001'),
+                                name: 'Agent',
+                                domain: getDomainRef('', `http://198.168.1.5:8090`, '', 'http://192.168.33.5:8090'),
                             },
                         ],
                     },

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add iyuu, mp, tr">
+    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -100,6 +100,8 @@
       <workItem from="1718608695386" duration="839000" />
       <workItem from="1718620250809" duration="6000" />
       <workItem from="1719826788743" duration="696000" />
+      <workItem from="1719922945588" duration="323000" />
+      <workItem from="1720169267364" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="add blog">
       <created>1717940194613</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718609683726</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1719923010144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719923010144</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add blog" />
     <MESSAGE value="add iyuu, mp, tr" />
-    <option name="LAST_COMMIT_MESSAGE" value="add iyuu, mp, tr" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

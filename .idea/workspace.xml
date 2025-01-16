@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add ups and nas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,8 @@
       <workItem from="1723723564460" duration="3437000" />
       <workItem from="1723737183926" duration="854000" />
       <workItem from="1723743769103" duration="26000" />
-      <workItem from="1735917272799" duration="332000" />
+      <workItem from="1735917272799" duration="589000" />
+      <workItem from="1737016700522" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="add blog">
       <created>1717940194613</created>
@@ -190,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735917526770</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add ups and nas">
+      <created>1735917752669</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735917752669</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

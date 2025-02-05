@@ -516,32 +516,29 @@
                         name: '网页',
                         domains: [
                             {
-                                name: '云盘（废弃）',
-                                domain: getDomainRef('http://wol.yinxia.blue:5212', `http://192.168.1.4:5212`, 'https://disk.yocoh.cn','http://192.168.33.4:5212'),
-                            },
-                            {
                                 name: '视频',
-                                domain: getDomainRef('https://v.nas.yinxia.blue:3333', `http://192.168.1.5:8096`, 'https://v.yinxia.blue', 'http://192.168.33.4:8096'),
-                            },
-                            {
-                                name: '图库',
-                                domain: getDomainRef('https://img.yocoh.cn', `https://img.yocoh.cn`, 'https://img.yocoh.cn', 'https://img.yocoh.cn'),
-                            },
-                            {
-                                name: '毕业相册',
-                                domain: getDomainRef('https://17oese.cn', `https://17oese.cn`, 'https://17oese.cn', 'https://17oese.cn'),
+                                domain: getDomainRef('https://v.nas.yinxia.blue:3333', `http://192.168.1.5:8096`, 'https://v.nas.yinxia.blue:3333', 'http://192.168.33.5:8096'),
                             },
                             {
                                 name: 'Webdav',
-                                domain: getDomainRef('https://alist.nas.yinxia.blue:3333', `http://192.168.1.5:5244`, '', 'http://192.168.33.4:5244'),
+                                domain: getDomainRef('https://alist.nas.yinxia.blue:3333', `http://192.168.1.5:5244`, '', 'http://192.168.33.5:5244'),
                             },
-                            {
-                                name: 'CHAT-BOT',
-                                domain: getDomainRef('https://chat.yocoh.cn', `http://192.168.1.4:3000`, 'https://chat.yocoh.cn', 'http://192.168.33.4:3000'),
-                            },
+
                             {
                                 name: 'BLOG',
                                 domain: getDomainRef('https://blog.yocoh.cn', 'https://blog.yocoh.cn', 'https://blog.yocoh.cn', 'https://blog.yocoh.cn'),
+                            },
+                            {
+                                name: 'MoviePilot',
+                                domain: getDomainRef('https://moviepilot.nas.yinxia.blue:3333', 'http://192.168.1.17:3189', 'https://mp.yocoh.cn', ''),
+                            },
+                            {
+                                name: 'CertiMate',
+                                domain: getDomainRef('https://ssl.nas.yinxia.blue:3333', 'http://192.168.1.17:8090', '', ''),
+                            },
+                            {
+                                name: 'NGPM',
+                                domain: getDomainRef('https://ngpm.nas.yinxia.blue:3333', 'http://192.168.1.17:8899', 'aliyun.yocoh.cn', ''),
                             },
 
                         ],
@@ -551,47 +548,44 @@
                         domains: [
                             {
                                 name: '测速',
-                                domain: getDomainRef('', `http://192.168.1.5:8008`, '', 'http://192.168.33.5:8008'),
-                            },{
-                                name: '测速OLD',
-                                domain: getDomainRef('', `http://192.168.1.4:8008`, '', 'http://192.168.33.4:8008'),
+                                domain: getDomainRef('', `http://192.168.1.17:8001`, '', 'http://192.168.33.17:8001'),
                             },
                             {
                                 name: 'auto-bangumi',
-                                domain: getDomainRef('https://ab.nas.yinxia.blue:3333', `http://192.168.1.4:7892`, '', 'http://192.168.33.4:7892'),
+                                domain: getDomainRef('https://ab.nas.yinxia.blue:3333', `http://192.168.1.17:7892`, '', ''),
                             },
 
                             {
                                 name: 'bitTorrent',
-                                domain: getDomainRef('https://qb.nas.yinxia.blue:3333', `http://192.168.1.5:8001/`, '', 'http://192.168.33.5:8001/'),
+                                domain: getDomainRef('https://qb.nas.yinxia.blue:3333', `http://192.168.1.17:8080/`, '', ''),
                             },
                             {
                                 name: 'ddns-go',
-                                domain: getDomainRef('', `http://192.168.1.5:9876`, '', 'http://192.168.33.5:9876'),
+                                domain: getDomainRef('', `http://192.168.1.17:9876`, '', ''),
                             },
                             {
-                                name: 'NGPM',
-                                domain: getDomainRef('https://ngpm.nas.yinxia.blue:3333', ``, 'https://aliyun.yocoh.cn', ''),
+                                name: 'RDP',
+                                domain: getDomainRef('https://rdp.nas.yinxia.blue:3333/', `http://192.168.1.17:9800`, '', ''),
                             },
                             {
                                 name: '歌词API',
                                 domain: getDomainRef('', ``, 'https://lrc.yocoh.cn', ''),
                             },
                             {
-                                name: 'Agent',
-                                domain: getDomainRef('', 'http://192.168.1.5:8090/', '', 'http://192.168.33.5:8090/'),
+                                name: 'FRP',
+                                domain: getDomainRef('', ``, 'https://frp.yocoh.cn', ''),
                             },
                             {
                                 name: 'NAS',
-                                domain: getDomainRef('https://nas.yinxia.blue:3333', 'http://192.168.1.17/', '', 'http://192.168.33.17/'),
+                                domain: getDomainRef('https://nas.yinxia.blue:3333', 'http://192.168.1.17/', '', ''),
                             },
                             {
                                 name: 'UPS',
-                                domain: getDomainRef('https://ups.nas.yinxia.blue:3333/ViewPower', 'http://192.168.1.17:15178/ViewPower/', '', 'http://192.168.33.17:15178/ViewPower/'),
+                                domain: getDomainRef('https://ups.nas.yinxia.blue:3333/ViewPower', 'http://192.168.1.17:15178/ViewPower/', '', ''),
                             },
                             {
                                 name: 'HA',
-                                domain: getDomainRef('http://wol.yinxia.blue:8123', 'http://192.168.1.4:8123', '', 'http://192.168.33.4:8123'),
+                                domain: getDomainRef('', 'http://192.168.1.251:8123', '', ''),
                             },
                         ],
                     },
@@ -603,12 +597,24 @@
                                 domain: getDomainRef('https://ext.to/', `https://ext.to/`, 'https://ext.to/', 'https://ext.to/'),
                             },
                             {
+                                name: 'CHAT-BOT',
+                                domain: getDomainRef('https://chat.yocoh.cn', `https://chat.yocoh.cn`, 'https://chat.yocoh.cn', 'https://chat.yocoh.cn'),
+                            },
+                            {
+                                name: '图库',
+                                domain: getDomainRef('https://img.yocoh.cn', `https://img.yocoh.cn`, 'https://img.yocoh.cn', 'https://img.yocoh.cn'),
+                            },
+                            {
+                                name: '毕业相册',
+                                domain: getDomainRef('https://17oese.cn', `https://17oese.cn`, 'https://17oese.cn', 'https://17oese.cn'),
+                            },
+                            {
                                 name: 'Nyaa',
                                 domain: getDomainRef('https://www.nyaa.net/', `https://www.nyaa.net/`, 'https://www.nyaa.net/', 'https://www.nyaa.net/'),
                             },
                             {
                                 name: 'Mikan',
-                                domain: getDomainRef('https://mikanani.me/', `https://mikanani.me/`, 'https://mikanani.me/', 'https://mikanani.me/'),
+                                domain: getDomainRef('https://mikan.yinxiacf.online/', `https://mikan.yinxiacf.online/`, 'https://mikan.yinxiacf.online/', 'https://mikan.yinxiacf.online/'),
                             },
                             {
                                 name: 'OPGG',
@@ -625,6 +631,10 @@
                             {
                                 name: 'CloudFlare',
                                 domain: getDomainRef('https://dash.cloudflare.com', 'https://dash.cloudflare.com/', 'https://dash.cloudflare.com/', 'https://dash.cloudflare.com/'),
+                            },
+                            {
+                                name: '馒头',
+                                domain: getDomainRef('https://kp.m-team.cc/', 'https://kp.m-team.cc/', 'https://kp.m-team.cc/', 'https://kp.m-team.cc/'),
                             },
                         ],
                     },

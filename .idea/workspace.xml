@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add ups and nas">
+    <list default="true" id="8a27639f-aaa1-47aa-a20f-bb67eb643975" name="变更" comment="add book library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -115,7 +115,10 @@
       <workItem from="1738926651549" duration="3995000" />
       <workItem from="1740142667546" duration="6000" />
       <workItem from="1740331777970" duration="631000" />
-      <workItem from="1740389761789" duration="303000" />
+      <workItem from="1740389761789" duration="375000" />
+      <workItem from="1740390364004" duration="37000" />
+      <workItem from="1749399484289" duration="6989000" />
+      <workItem from="1749451976455" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="add blog">
       <created>1717940194613</created>
@@ -250,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738781495340</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add book library">
+      <created>1740390084517</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740390084517</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +285,7 @@
     <MESSAGE value="add a filter" />
     <MESSAGE value="!bug fixed" />
     <MESSAGE value="add ups and nas" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ups and nas" />
+    <MESSAGE value="add book library" />
+    <option name="LAST_COMMIT_MESSAGE" value="add book library" />
   </component>
 </project>

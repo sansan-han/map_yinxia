@@ -183,16 +183,19 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background: aliceblue no-repeat right bottom;
+            background-image: url("https://api.yocoh.cn/api/random?category=mio");
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            background-color: aliceblue;
             transition: background-image 2s;
             background-size: auto 100%;
         }
-        body:before{
+        body:before {
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background:white;
+            background: white;
             opacity: 0.35;
             z-index: 0;
             content: "";
@@ -649,19 +652,19 @@
     }).mount('#content')
     init();
 </script>
-<script>
-    fetch(`https://api.yocoh.cn/api/images?${Date.now()}`)
-            .then(response => response.json())
-        .then(data => {
-            const body = document.getElementById('mybody');
-            const img = new Image();
-            img.onload = function() {
-                body.style.backgroundImage = `url('${data.url}')`;
-            };
-            img.src = data.url;
-        })
-        .catch(error => console.error(error));
-</script>
+<!--<script>-->
+<!--    fetch(`https://api.yocoh.cn/api/images?${Date.now()}`)-->
+<!--            .then(response => response.json())-->
+<!--        .then(data => {-->
+<!--            const body = document.getElementById('mybody');-->
+<!--            const img = new Image();-->
+<!--            img.onload = function() {-->
+<!--                body.style.backgroundImage = `url('${data.url}')`;-->
+<!--            };-->
+<!--            img.src = data.url;-->
+<!--        })-->
+<!--        .catch(error => console.error(error));-->
+<!--</script>-->
 <script>
     //回车事件逻辑
     document.addEventListener("DOMContentLoaded", function() {

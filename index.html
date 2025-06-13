@@ -653,7 +653,8 @@
     init();
 </script>
 <script>
-fetch('https://api.yocoh.cn/api/v1/sentences/random?category=h').then(response => response.json())
+let time = new Date().getTime()
+fetch(`https://api.yocoh.cn/api/v1/sentences/random?category=h&time=${time}`).then(response => response.json())
     .then(data => {
         const yocoh_text = document.querySelector('#yocoh_text')
         yocoh_text.innerText = [data.content + '———' + data.author]
